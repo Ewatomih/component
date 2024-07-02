@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.score {
+  background-color: #4e7ae5;
+  color: white;
+  padding: 40px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  font-size: 60px;
+  margin: auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 130px;
+  display: inline-block;
+  border: 1px solid;
+  position: relative;
+  /* padding: 10px 20px; */
+
+  text-align: center;
+  line-height: 1.1;
+  
+}
+
+.circle span {
+    padding: 5px;
+}
+
+
+.of {
+  font-size: 10px;
+  /* margin-top: 5px; */
+}
+
+/* .circle p {
+  font-size: 20px;
+  /* margin: 10px 0 0; 
+  /* padding: 10px 20px; 
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+
+} */
+
+.score p {
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.summary {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.summary h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+.summary .result {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
